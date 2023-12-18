@@ -1,0 +1,30 @@
+/* Metronome.css */
+
+* {
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+svg {
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 10px;
+}
